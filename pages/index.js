@@ -1,14 +1,16 @@
 import { Text } from '@nextui-org/react'
+import NavBar from '../src/components/NavBar'
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <NavBar />
       <Text size="$test" color="$yigit">
         Home
       </Text>
       <p>Lorem, ipsum dolor.</p>
       <p>Github</p>
-    </div>
+    </>
   )
 }
 

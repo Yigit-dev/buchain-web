@@ -1,0 +1,54 @@
+.nav {
+    /* width: 100%; */
+    margin-top: 16px;
+    padding: 0px 16px;
+}
+
+.linkContainer {
+    gap: 4px;
+    padding: 0;
+}
+
+.navElement {
+    position: relative;
+    display: inline-block;
+    min-width: 128px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px 0px;
+    margin: auto;
+    /*margin-auto solves the alignment problem here*/
+}
+
+.navElement:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.extended {
+    width: 100%;
+    display: none;
+    text-align: center;
+    gap: 12px;
+    position: absolute;
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #2A2D41;
+    z-index: 1;
+}
+
+.navElement:hover .extended {
+    display: block;
+}
+
+.extended .link {
+    display: block;
+    padding: 6px;
+}

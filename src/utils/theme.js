@@ -4,13 +4,19 @@ export const theme = createTheme({
   type: 'light',
   theme: {
     colors: {
-      yigit: '#000',
+      white: '#fff',
+      darkColor: '#2A2D41',
     },
     space: {},
     fontSizes: {
-      test: '5rem',
+      tiny: '12px',
+      xs: '14px',
+      base: '16px',
     },
-    fonts: {},
+    fonts: {
+      Averta: 'Averta',
+      AvertaBold: 'Averta-Bold',
+    },
     fontWeights: {},
     lineHeights: {},
     letterSpacings: {},
