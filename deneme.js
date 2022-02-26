@@ -1,7 +1,6 @@
 import { Text } from '@nextui-org/react'
-import Icon from '/src/components/base/icons.js'
+import Icon from '/src/components/base/Icon.js'
 import WordText from '/src/components/base/Text.js'
-import variables from "/styles/palette.module.scss"
 
 // PREVIEW FOR TEXT COMPONENTS ACCORDING TO THEIR PAGES
 
@@ -11,7 +10,7 @@ const Home = () => {
 
      Icon check:<br/>   
         <Icon name="instagram"/> <Icon name="envelope"/> <Icon name="twitter"/>
-        <Icon name="discord"/> <Icon name="hamburger"/>
+        <Icon name="discord"/> <Icon name="hamburger"/><Icon name="down"/>
         <br></br>
         ------Manifesto--------
             <Text.Titles>Manifesto!</Text.Titles>
@@ -62,7 +61,7 @@ const Home = () => {
           <br/>
         -----Navbar----<br/>
             <Text.MidText>Hakkımızda</Text.MidText>
-            <div style={{backgroundColor: variables.dark,width : '150px'}}>
+            <div style={{backgroundColor: '#2a2d41',width : '150px'}}>
             <Text.WhiteText>Manifesto</Text.WhiteText>
             <Text.WhiteText>Yönetişim</Text.WhiteText>
             <Text.WhiteText>Tüzük</Text.WhiteText>

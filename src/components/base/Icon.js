@@ -3,7 +3,7 @@ import Twitter from '/public/icons/twitter.svg'
 import Instagram from '/public/icons/instagram.svg'
 import Discord from '/public/icons/discord.svg'
 import Hamburger from '/public/icons/hamburger.svg'
-import variables from '/styles/palette.module.scss'
+import Down from '/public/icons/down.svg'
 
 const iconStyle = {
   height: '30px',
@@ -17,11 +17,12 @@ const iconTypes = {
   instagram: Instagram,
   discord: Discord,
   hamburger: Hamburger,
+  down: Down,
 }
 
-const IconComponent = ({ name, ...props }) => {
+const Icon = ({ name, ...props }) => {
   let Icon = iconTypes[name]
   return <Icon {...props} style={iconStyle} />
 }
 
-export default IconComponent
+export default Icon

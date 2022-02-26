@@ -5,7 +5,33 @@ export const theme = createTheme({
   theme: {
     colors: {
       white: '#fff',
-      darkColor: '#2A2D41',
+      dark : '#2a2d41',
+      darkGrey : '#5a5f63',
+      lightGrey : '#e6e7e9',
+      lightBlue : '#43aefe',
+      darkBlue : '#006ee9',
+
+      
+      /* BUTTON BLUE */
+      blueBtnBgNormal : '#006ee9',
+      blueBtnTxtNormal: '#FFFFFF',
+
+      blueBtnBgHover: '#66abf3',
+      blueBtnTxtHover: '#FFFFFF',
+
+      blueBtnBgActive: '#023e7f',
+      blueBtnTxtActive: '#91a2ea',
+
+      /* BUTTON GREY */
+
+      greyBtnBgNormal: '#d8dde3',
+      greyBtnTxtNormal: '#2a2d41',
+
+      greyBtnBgHover: '#ebf0f3',
+      greyBtnTxtHover: '#6db8f2',
+
+      greyBtnBgActive: '#a5bbd3',
+      greyBtnTxtActive: '#3e4980',
     },
     space: {},
     fontSizes: {

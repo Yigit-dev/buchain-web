@@ -1,5 +1,4 @@
 import { Text } from '@nextui-org/react'
-import variables from '/styles/palette.module.scss'
 
 //Big dark text for titles
 Text.Titles = function WordText({ children }) {
@@ -8,7 +7,7 @@ Text.Titles = function WordText({ children }) {
       h3
       css={{
         fontFamily: 'Averta-bold',
-        color: variables.dark,
+        color: '$dark',
       }}
     >
       {children}
@@ -23,7 +22,7 @@ Text.Info = function WordText({ children }) {
       h6
       css={{
         fontFamily: 'Averta-Bold',
-        color: variables.dark,
+        color: '$dark',
       }}
     >
       {children}
@@ -38,7 +37,7 @@ Text.InfoLight = function WordText({ children }) {
       h6
       css={{
         fontFamily: 'Averta',
-        color: variables.dark,
+        color: '$dark',
         fontWeight: 'lighter',
       }}
     >
@@ -54,7 +53,7 @@ Text.MidText = function WordText({ children }) {
       h4
       css={{
         fontFamily: 'Averta-Bold',
-        color: variables.dark,
+        color: '$dark',
       }}
     >
       {children}
@@ -68,7 +67,7 @@ Text.SmallTitle = function WordText({ children }) {
       h5
       css={{
         fontFamily: 'Averta-Bold',
-        color: variables.dark,
+        color: '$dark',
       }}
     >
       {children}
@@ -82,7 +81,7 @@ Text.SmallTitleLight = function WordText({ children }) {
       h5
       css={{
         fontFamily: 'Averta',
-        color: variables.dark,
+        color: '$dark',
         fontWeight: 'lighter',
       }}
     >
@@ -97,8 +96,8 @@ Text.MenuPassive = function WordText({ children }) {
       h5
       css={{
         fontFamily: 'Averta-Bold',
-        color: variables.lightGrey,
-        '&:hover': { color: variables.darkGrey, cursor: 'pointer' },
+        color: '$lightGrey',
+        '&:hover': { color: '$darkGrey', cursor: 'pointer' },
       }}
     >
       {children}
