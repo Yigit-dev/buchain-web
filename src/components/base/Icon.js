@@ -4,6 +4,7 @@ import Instagram from '/public/icons/instagram.svg'
 import Discord from '/public/icons/discord.svg'
 import Hamburger from '/public/icons/hamburger.svg'
 import Down from '/public/icons/down.svg'
+import Logo from '/public/icons/logo.svg'
 
 const iconStyle = {
   height: '30px',
@@ -18,11 +19,12 @@ const iconTypes = {
   discord: Discord,
   hamburger: Hamburger,
   down: Down,
+  logo: Logo,
 }
 
 const Icon = ({ name, ...props }) => {
   let Icon = iconTypes[name]
-  return <Icon {...props} style={iconStyle} />
+  return <Icon style={iconStyle} {...props} />
 }
 
 export default Icon
