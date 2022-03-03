@@ -34,16 +34,16 @@ const NavBar = () => {
             </div>
             <div className={styles.extended}>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Manifesto</Text.WhiteText>
+                <Text.White>Manifesto</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Yönetişim</Text.WhiteText>
+                <Text.White>Yönetişim</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Tüzük</Text.WhiteText>
+                <Text.White>Tüzük</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Üyeler ve Destekçiler</Text.WhiteText>
+                <Text.White>Üyeler ve Destekçiler</Text.White>
               </Link>
             </div>
           </li>
@@ -55,13 +55,13 @@ const NavBar = () => {
             </div>
             <div className={styles.extended}>
               <Link href="#" className={styles.link} size="@tiny">
-                <Text.WhiteText>Girişim</Text.WhiteText>
+                <Text.White>Girişim</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>BUCHAIN Insights</Text.WhiteText>
+                <Text.White>BUCHAIN Insights</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>BUCHAIN DEVS</Text.WhiteText>
+                <Text.White>BUCHAIN DEVS</Text.White>
               </Link>
             </div>
           </li>
@@ -72,13 +72,13 @@ const NavBar = () => {
             </div>
             <div className={styles.extended}>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Temel Eğitim Grubu</Text.WhiteText>
+                <Text.White>Temel Eğitim Grubu</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Development Ekibi</Text.WhiteText>
+                <Text.White>Development Ekibi</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
-                <Text.WhiteText>Sektörel Eğitimler</Text.WhiteText>
+                <Text.White>Sektörel Eğitimler</Text.White>
               </Link>
             </div>
           </li>
