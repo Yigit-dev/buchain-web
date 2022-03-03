@@ -5,9 +5,9 @@ Text.Titles = function WordText({ children }) {
   return (
     <Text
       h3
+      color="$dark"
       css={{
         fontFamily: 'Averta-bold',
-        color: '$dark',
       }}
     >
       {children}
@@ -20,9 +20,9 @@ Text.Info = function WordText({ children }) {
   return (
     <Text
       h6
+      color="$dark"
       css={{
         fontFamily: 'Averta-Bold',
-        color: '$dark',
       }}
     >
       {children}
@@ -35,9 +35,9 @@ Text.InfoLight = function WordText({ children }) {
   return (
     <Text
       h6
+      color="$dark"
       css={{
         fontFamily: 'Averta',
-        color: '$dark',
         fontWeight: 'lighter',
       }}
     >
@@ -51,9 +51,9 @@ Text.MidText = function WordText({ children }) {
   return (
     <Text
       h4
+      color="$dark"
       css={{
         fontFamily: 'Averta-Bold',
-        color: '$dark',
       }}
     >
       {children}
@@ -65,9 +65,9 @@ Text.SmallTitle = function WordText({ children }) {
   return (
     <Text
       h5
+      color="$dark"
       css={{
         fontFamily: 'Averta-Bold',
-        color: '$dark',
       }}
     >
       {children}
@@ -79,9 +79,9 @@ Text.SmallTitleLight = function WordText({ children }) {
   return (
     <Text
       h5
+      color="$dark"
       css={{
         fontFamily: 'Averta',
-        color: '$dark',
         fontWeight: 'lighter',
       }}
     >
@@ -94,9 +94,9 @@ Text.MenuPassive = function WordText({ children }) {
   return (
     <Text
       h5
+      color="$lightGrey"
       css={{
         fontFamily: 'Averta-Bold',
-        color: '$lightGrey',
         '&:hover': { color: '$darkGrey', cursor: 'pointer' },
       }}
     >
@@ -110,9 +110,9 @@ Text.WhiteText = function WordText({ children }) {
   return (
     <Text
       h5
+      color="white"
       css={{
         fontFamily: 'Averta',
-        color: 'white',
         fontWeight: 'lighter',
         '&:hover': { color: 'lightgrey', cursor: 'pointer' },
       }}
