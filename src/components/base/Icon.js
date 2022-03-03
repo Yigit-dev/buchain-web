@@ -1,14 +1,16 @@
-import Envelope from '/public/icons/envelope.svg'
-import Twitter from '/public/icons/twitter.svg'
-import Instagram from '/public/icons/instagram.svg'
-import Discord from '/public/icons/discord.svg'
-import Hamburger from '/public/icons/hamburger.svg'
-import Down from '/public/icons/down.svg'
-import Logo from '/public/icons/logo.svg'
+import {
+  Discord,
+  Down,
+  Envelope,
+  Hamburger,
+  Instagram,
+  Logo,
+  Twitter,
+} from '../../../public/icons/index'
 
 const iconStyle = {
-  height: '30px',
-  width: '30px',
+  height: 30,
+  width: 30,
   fill: '#2a2d41',
 }
 
