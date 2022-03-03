@@ -1,7 +1,7 @@
 import { Text } from '@nextui-org/react'
 
 //Big dark text for titles
-Text.Titles = function WordText({ children }) {
+Text.Title = function WordText({ children }) {
   return (
     <Text
       h3
@@ -106,7 +106,7 @@ Text.MenuPassive = function WordText({ children }) {
 }
 
 //Navbar white text
-Text.WhiteText = function WordText({ children }) {
+Text.White = function WordText({ children }) {
   return (
     <Text
       h5
