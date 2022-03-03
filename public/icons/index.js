@@ -1,0 +1,7 @@
+export { default as Discord } from './discord.svg'
+export { default as Down } from './down.svg'
+export { default as Envelope } from './envelope.svg'
+export { default as Hamburger } from './hamburger.svg'
+export { default as Instagram } from './instagram.svg'
+export { default as Logo } from './logo.svg'
+export { default as Twitter } from './twitter.svg'
