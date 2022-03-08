@@ -4,7 +4,7 @@ import { Text } from '@nextui-org/react'
 Text.Title = function WordText({ children }) {
   return (
     <Text
-      h3
+      h5
       color="$dark"
       css={{
         fontFamily: 'Averta-bold',
