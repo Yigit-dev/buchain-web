@@ -1,6 +1,9 @@
 import { Button, Collapse, Grid, Text } from '@nextui-org/react'
 import TextTitles from '../src/components/base/Text'
 import CustomButton from '../src/components/base/Button'
+import ConsultantCard from '../src/components/ConsultantCard'
+import ExampleCard from '../src/components/Card/ExampleCard'
+import FormationModul from '../src/components/Modal/FormationModul'
 
 const Guide = () => {
   return (
@@ -52,12 +55,8 @@ const Guide = () => {
             subtitle="Card Components"
             css={{ width: 800 }}
           >
-            <Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </Text>
+            <ConsultantCard />
+            <ExampleCard />
           </Collapse>
         </Grid>
       </Grid.Container>
