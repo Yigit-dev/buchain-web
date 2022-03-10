@@ -1,5 +1,6 @@
 import { Text } from '@nextui-org/react'
 import NavBar from '../src/components/NavBar'
+// import Footer from '../src/components/Footer'
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
       </Text>
       <p>Lorem, ipsum dolor.</p>
       <p>Github</p>
+
+      {/* <Footer /> */}
     </>
   )
 }

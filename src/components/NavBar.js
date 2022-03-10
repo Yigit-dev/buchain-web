@@ -16,6 +16,7 @@ const NavBar = () => {
       justify="space-around"
       alignItems="center"
       className={styles.nav}
+      xl={12}
     >
       <Link href="http://www.buchain.org/">
         <Icon name="logo" style={{ width: 300, height: 75 }} />
@@ -30,10 +31,10 @@ const NavBar = () => {
           <li className={styles.navElement + ' ' + styles.expandableNavElement}>
             <div className={styles.navTitle}>
               <Text.SmallTitle>Hakkımızda</Text.SmallTitle>
-              <Icon name="down" style={{ width: 15 }} />
+              <Icon name="down" style={{ width: 12 }} />
             </div>
             <div className={styles.extended}>
-              <Link href="#" className={styles.link}>
+              <Link href="" className={styles.link}>
                 <Text.White>Manifesto</Text.White>
               </Link>
               <Link href="#" className={styles.link}>
@@ -51,16 +52,16 @@ const NavBar = () => {
           <li className={styles.navElement + ' ' + styles.expandableNavElement}>
             <div className={styles.navTitle}>
               <Text.SmallTitle span>Oluşumlar</Text.SmallTitle>
-              <Icon name="down" style={{ width: 15 }} />
+              <Icon name="down" style={{ width: 12 }} />
             </div>
             <div className={styles.extended}>
-              <Link href="#" className={styles.link} size="@tiny">
+              <Link href="/olusum" className={styles.link} size="@tiny">
                 <Text.White>Girişim</Text.White>
               </Link>
-              <Link href="#" className={styles.link}>
+              <Link href="/olusum" className={styles.link}>
                 <Text.White>BUCHAIN Insights</Text.White>
               </Link>
-              <Link href="#" className={styles.link}>
+              <Link href="/olusum" className={styles.link}>
                 <Text.White>BUCHAIN DEVS</Text.White>
               </Link>
             </div>
@@ -68,7 +69,7 @@ const NavBar = () => {
           <li className={styles.navElement + ' ' + styles.expandableNavElement}>
             <div className={styles.navTitle}>
               <Text.SmallTitle span>Eğitimler</Text.SmallTitle>
-              <Icon name="down" style={{ width: 15 }} />
+              <Icon name="down" style={{ width: 12 }} />
             </div>
             <div className={styles.extended}>
               <Link href="#" className={styles.link}>

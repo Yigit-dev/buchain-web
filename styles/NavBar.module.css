@@ -1,12 +1,9 @@
 .nav {
-    /* width: 100%; */
-    margin-top: 16px;
-    padding: 0px 16px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
+    max-height: 75px;
     background-color: rgba(241, 241, 241, 0.4);
     /*Temporary bg color*/
-    margin: 0;
 }
 
 .linkContainer {

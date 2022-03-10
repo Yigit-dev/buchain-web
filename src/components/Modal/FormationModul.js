@@ -1,13 +1,14 @@
 import { Button, Modal, Text, useModal } from '@nextui-org/react'
 import React from 'react'
+import WordText from '/src/components/base/Text.js'
 
 const FormationModul = ({ title, description }) => {
   const { setVisible, bindings } = useModal()
 
   return (
     <div>
-      <Button auto shadow color="secondary" onClick={() => setVisible(true)}>
-        Open modal
+      <Button auto shadow onClick={() => setVisible(true)}>
+        Detaylar
       </Button>
       <Modal
         scroll
@@ -17,19 +18,16 @@ const FormationModul = ({ title, description }) => {
         {...bindings}
       >
         <Modal.Header>
-          <Text id="modal-title" size={18}>
+          <Text.Title id="modal-title" size={18}>
             {title}
-          </Text>
+          </Text.Title>
         </Modal.Header>
         <Modal.Body>
-          <Text id="modal-description">{description}</Text>
+          <Text.InfoLight id="modal-description">{description}</Text.InfoLight>
         </Modal.Body>
         <Modal.Footer>
           <Button auto flat color="error" onClick={() => setVisible(false)}>
-            Close
-          </Button>
-          <Button auto onClick={() => setVisible(false)}>
-            Agree
+            Kapat
           </Button>
         </Modal.Footer>
       </Modal>
