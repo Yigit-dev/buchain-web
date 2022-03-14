@@ -8,7 +8,7 @@ import WordText from '/src/components/base/Text.js'
 const MainSupporter = () => {
   return (
     <>
-        <Card hoverable style={{width:'60vw'}}>
+        <Card hoverable style={{width:'60vw'}} justify="center" align="center">
           <Grid.Container gap={2} 
           display="flex"
           justify="center" 
@@ -24,6 +24,7 @@ const MainSupporter = () => {
             </Grid>
           </Grid.Container>
         </Card>
+
         </>
       )
     } 
