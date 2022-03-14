@@ -1,19 +1,25 @@
-import { Grid } from '@nextui-org/react'
+import { Grid, Link } from '@nextui-org/react'
 import Icon from './Icon'
 
 const Socials = () => {
   return (
-      <Grid.Container gap={2} justify="center">
-        <Grid>
-          <Icon name="instagram"/>
-        </Grid>
-        <Grid>
+    <Grid.Container gap={2} justify="center" alignItems="center">
+      <Grid justify="center" xs={4}>
+        <Link href="#">
+          <Icon name="instagram" />
+        </Link>
+      </Grid>
+      <Grid justify="center" xs={4}>
+        <Link href="#">
           <Icon name="twitter" />
-        </Grid>
-        <Grid>
-          <Icon name="discord"/>
-        </Grid>
-      </Grid.Container>
+        </Link>
+      </Grid>
+      <Grid justify="center" xs={4}>
+        <Link href="#">
+          <Icon name="discord" />
+        </Link>
+      </Grid>
+    </Grid.Container>
   )
 }
 
