@@ -47,7 +47,8 @@
     padding: 6px;
     border-radius: 0px 0px 4px 4px;
     background-color: #2A2D41;
-    z-index: 1;
+    z-index: 9999;
+    /*z-index'in 1 olması yeterli değil, 1 iken butonlar daha üstte çıkıyor*/
 }
 
 .navElement:hover .extended {

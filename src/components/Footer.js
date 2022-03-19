@@ -26,8 +26,8 @@ const Footer = () => {
           <Socials />
         </Grid>
         <Grid xs={12} sm={4} justify="center">
-          <Link href="#">
-            <Text>mail.com</Text>
+          <Link href="mailto:bogazicichain@gmail.com">
+            <Text>bogazicichain@gmail.com</Text>
           </Link>
         </Grid>
         <Spacer y={2} />
