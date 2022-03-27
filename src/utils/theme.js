@@ -5,15 +5,14 @@ export const theme = createTheme({
   theme: {
     colors: {
       white: '#fff',
-      dark : '#2a2d41',
-      darkGrey : '#5a5f63',
-      lightGrey : '#e6e7e9',
-      lightBlue : '#43aefe',
-      darkBlue : '#006ee9',
+      dark: '#2a2d41',
+      darkGrey: '#5a5f63',
+      lightGrey: '#e6e7e9',
+      lightBlue: '#43aefe',
+      darkBlue: '#006ee9',
 
-      
       /* BUTTON BLUE */
-      blueBtnBgNormal : '#006ee9',
+      blueBtnBgNormal: '#006ee9',
       blueBtnTxtNormal: '#FFFFFF',
 
       blueBtnBgHover: '#66abf3',
