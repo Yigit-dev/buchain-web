@@ -8,6 +8,8 @@ Text.PageTitle = function WordText({ children }) {
       color="$dark"
       css={{
         fontFamily: 'Averta-bold',
+        fontSize: "3rem",
+        textAlign: 'center'
       }}
     >
       {children}

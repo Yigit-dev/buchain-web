@@ -33,3 +33,17 @@ li {
     padding: 0;
     list-style-type: none;
 }
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+section.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../public/hero.png") no-repeat 50% 50%;
+    background-size: cover;
+    
+}
