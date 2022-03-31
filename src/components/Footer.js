@@ -8,12 +8,11 @@ const Footer = () => {
     <footer
       style={{
         background: '#F7F8FC',
-        width: '100%',
-        position: 'absolute',
         bottom: 0,
         left: 0,
         borderTopColor: 'gray',
-        borderTopStyle: 'solid',
+        borderTopStyle: 'double',
+
       }}
     >
       <Grid.Container gap={2} alignItems="center">

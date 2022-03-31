@@ -8,8 +8,8 @@ import WordText from '/src/components/base/Text.js'
 const Supporters = () => {
   return (
     <>
-          <div justify="center" align="center">
-            <Text.Title>X Destekçiler</Text.Title>
+          <div justify="center" align="center"  style={{margin:'30px'}}>
+            <Text.MidText>X Destekçiler</Text.MidText>
           </div>
 
         <Grid.Container
@@ -44,8 +44,8 @@ const Supporters = () => {
         </Grid.Container>
 
 
-          <div justify="center" align="center">
-            <Text.Title>Y Destekçiler</Text.Title>
+          <div justify="center" align="center"  style={{margin:'30px'}}>
+            <Text.MidText>Y Destekçiler</Text.MidText>
           </div>
 
       <Grid.Container
@@ -54,6 +54,8 @@ const Supporters = () => {
         display="flex"
         alignItems="center"
         alignContent="center"
+        style={{marginBottom:'150px'}}
+
       >
         <Grid xs={12} md={3} sm={3} justify="center" align="center">
           <Card hoverable style={{ padding: '10px' }}>

@@ -63,6 +63,20 @@ Text.InfoLight = function WordText({ children }) {
   )
 }
 
+Text.LargeTitle = function WordText({ children }) {
+  return (
+    <Text
+      h2
+      color="$dark"
+      css={{
+        fontFamily: 'Averta-Bold',
+      }}
+    >
+      {children}
+    </Text>
+  )
+}
+
 //Middle sized dark text
 Text.MidText = function WordText({ children }) {
   return (

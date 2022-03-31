@@ -4,11 +4,16 @@ import Footer from './components/Footer'
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div
+     css={{
+       position:'relative',
+       minHeight:'100vh',
+     }}
+     >
       <NavBar />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
 
