@@ -12,7 +12,7 @@ const Footer = () => {
         left: 0,
         borderTopColor: 'gray',
         borderTopStyle: 'double',
-
+        width:'100%'
       }}
     >
       <Grid.Container gap={2} alignItems="center">
