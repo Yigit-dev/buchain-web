@@ -20,7 +20,7 @@ const Basvuru = () => {
         align="center"
         justify="center"
         gap={3}
-        css={{ padding: '0', marginTop: '4px' }}
+        css={{ padding: '0', marginTop: '4px', marginBottom:'60px' }}
       >
         <Grid xs={12} sm={6} md={4}>
           <Card hoverable bordered>
@@ -107,7 +107,7 @@ const Basvuru = () => {
               </Text.PageTitle>
             </Card.Header>
             <Text.InfoLight>
-              Buchain'in ilerlemesine ve blockchain teknolojisinin geleceğine
+              Buchain&apos;in ilerlemesine ve blockchain teknolojisinin geleceğine
               katkıda bulunmak mı istiyorsunuz?
             </Text.InfoLight>
             <Card.Image
