@@ -26,7 +26,7 @@ const FormationModul = ({ title, description }) => {
           <Text.InfoLight id="modal-description">{description}</Text.InfoLight>
         </Modal.Body>
         <Modal.Footer>
-          <Button auto flat color="error" onClick={() => setVisible(false)}>
+          <Button auto flat color="$dark" onClick={() => setVisible(false)}>
             Kapat
           </Button>
         </Modal.Footer>
