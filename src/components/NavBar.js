@@ -15,12 +15,12 @@ const NavBar = () => {
   // }, [visible])
   return (
     <Grid.Container justify="center" alignItems="center" className={styles.nav}>
-      <Grid xs={8} sm={4} className={styles.logoGrid}>
+      <Grid xs={8} sm={4} md={3} className={styles.logoGrid}>
         <Link href="/">
           <Icon name="logo" style={{ width: 300, height: 75 }} />
         </Link>
       </Grid>
-      <Grid xs={0} sm={8}>
+      <Grid xs={0} sm={8} md={6} className={styles.navLinks}>
         <li className={styles.navElement + ' ' + styles.expandableNavElement}>
           <Link href="/hakkimizda" className={styles.navTitle}>
             <Text.SmallTitle span>Hakkımızda</Text.SmallTitle>
