@@ -1,7 +1,7 @@
 import { Text } from '@nextui-org/react'
 
 //Big dark text for page titles (to show the user the current page they are on)
-Text.PageTitle = function WordText({ children }) {
+Text.PageTitle = function WordText({ children, ...props }) {
   return (
     <Text
       h4
@@ -9,8 +9,9 @@ Text.PageTitle = function WordText({ children }) {
       css={{
         fontFamily: 'Averta-bold',
         fontSize: "3rem",
-        textAlign: 'center'
+        textAlign: 'center',
       }}
+      {...props}
     >
       {children}
     </Text>
