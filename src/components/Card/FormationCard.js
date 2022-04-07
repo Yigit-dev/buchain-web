@@ -3,11 +3,11 @@ import { DATA } from '../../utils/data'
 import FormationModul from '../Modal/FormationModul'
 import WordText from '/src/components/base/Text.js'
 
-const FormationCard = () => {
+const FormationCard = ({data}) => {
   return (
     <Grid.Container gap={2} justify="center">
       {DATA.map(item => (
-        <Grid xs={8} sm={6} md={3} key={item.id} justify="center">
+        <Grid xs={12} sm={6} md={3} key={item.id} justify="center">
           <Card>
             <Card.Image
               objectFit="cover"

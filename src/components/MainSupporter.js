@@ -8,23 +8,25 @@ import WordText from '/src/components/base/Text.js'
 const MainSupporter = () => {
   return (
     <>
-        <Card hoverable style={{ margin:'30px', maxWidth:'1250px'}} justify="center" align="center">
+        <Card hoverable style={{ margin:'30px', maxWidth:'1130px'}} justify="center" align="center">
           <Grid.Container gap={2} 
           display="flex"
           justify="center" 
           alignItems="center"
-          alignContent="center" >
+          alignContent="center"
+          >
             <Grid xl={6} justify="center" align="center">
               <Card.Image width={200} height={140} />
-            </Grid>
-
-            <Grid xl={6} justify="center" align="center">
-              <Text.Title>X ŞİRKETİ</Text.Title>
-              <Text.SmallTitleLight><span>
+          
+            <Grid justify="center" align="center">
+             <span><Text.Title><br/>X ŞİRKETİ</Text.Title>
+              <Text.SmallTitleLight>
                 Şirket AçıklamasıŞirket AçıklamasıŞirket AçıklamasıŞirket AçıklamasıŞirket Açıklaması
                 Şirket Açıklaması
-                </span></Text.SmallTitleLight>
+               </Text.SmallTitleLight> </span>
             </Grid>
+              </Grid>
+
           </Grid.Container>
         </Card>
 
