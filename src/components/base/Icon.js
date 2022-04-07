@@ -6,6 +6,7 @@ import {
   Instagram,
   Logo,
   Twitter,
+  Xmark,
 } from '../../../public/icons/index'
 
 const iconStyle = {
@@ -22,6 +23,7 @@ const iconTypes = {
   hamburger: Hamburger,
   down: Down,
   logo: Logo,
+  xmark: Xmark,
 }
 
 const Icon = ({ name, ...props }) => {

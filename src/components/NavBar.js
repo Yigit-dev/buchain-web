@@ -1,21 +1,20 @@
 import WordText from '/src/components/base/Text.js'
 import Icon from './base/Icon'
 import styles from '../../styles/NavBar.module.css'
-import { Text, Link, Grid, StyledSwitch } from '@nextui-org/react'
-// import { useState, useEffect } from 'react'
+import { Text, Link, Grid, StyledSwitch, Row } from '@nextui-org/react'
+import { useState, useEffect } from 'react'
 const NavBar = () => {
-  /* HAMBURGER MENU WILL BE IMPLEMENTED LATER */
-  // const [visible, setVisible] = useState(false)
-  // useEffect(() => {
-  //   if (visible) {
-  //     //show
-  //   } else {
-  //     //dont show
-  //   }
-  // }, [visible])
+  const [visible, setVisible] = useState(false)
+  useEffect(() => {
+    if (visible) {
+      //show
+    } else {
+      //dont show
+    }
+  }, [visible])
   return (
     <Grid.Container justify="center" alignItems="center" className={styles.nav}>
-      <Grid xs={8} sm={4} md={3} className={styles.logoGrid}>
+      <Grid xs={8} sm={4} md={3} className={styles.logoPadding} justify="left">
         <Link href="/">
           <Icon name="logo" style={{ width: 300, height: 75 }} />
         </Link>
@@ -107,16 +106,34 @@ const NavBar = () => {
           </Link>
         </li>
       </Grid>
-      {/* <Grid
+      <Grid
         xs={4}
         sm={0}
-        justify="right"
         onClick={() => {
           setVisible(!visible)
         }}
+        justify="right"
+        className={styles.menuPadding}
       >
-        <Icon name="hamburger" style={{ width: 12 }} />
-      </Grid> */}
+        <Icon name={visible ? 'xmark' : 'hamburger'} style={{ width: 14 }} />
+      </Grid>
+      <div className={visible ? styles.hamburgerLinks : styles.dnone}>
+        <Link href="/hakkimizda" className={styles.navTitle}>
+          <Text.SmallTitle span>Hakkımızda</Text.SmallTitle>
+        </Link>
+        <Link href="/basvuru" className={styles.navTitle}>
+          <Text.SmallTitle span>Başvuru</Text.SmallTitle>
+        </Link>
+        <Link href="/olusumlar" className={styles.navTitle}>
+          <Text.SmallTitle span>Oluşumlar</Text.SmallTitle>
+        </Link>
+        <Link href="/egitimler" className={styles.navTitle}>
+          <Text.SmallTitle span>Eğitimler</Text.SmallTitle>
+        </Link>
+        <Link href="mailto:bogazicichain@gmail.com" className={styles.navTitle}>
+          <Icon name="envelope" style={{ width: 20 }} />
+        </Link>
+      </div>
     </Grid.Container>
   )
 }

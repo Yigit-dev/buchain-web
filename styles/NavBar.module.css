@@ -54,12 +54,42 @@
     padding: 6px;
 }
 
-.logoGrid {
+.logoPadding {
     justify-content: center;
 }
 
+.dnone {
+    display: none;
+}
+
+.hamburgerLinks {
+    display: none;
+}
+
 @media (max-width: 960px) {
-    .logoGrid {
+    .logoPadding {
+        padding-left: 32px;
+        justify-content: left;
+    }
+    .menuPadding {
+        padding-right: 32px;
+    }
+    .hamburgerLinks {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        width: 100%;
+        gap: 32px;
+        padding: 16px 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    .logoPadding {
+        padding-left: 8px;
+    }
+    .menuPadding {
+        padding-right: 8px;
     }
 }
